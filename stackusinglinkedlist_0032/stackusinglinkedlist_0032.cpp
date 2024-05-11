@@ -32,4 +32,8 @@ public:
 		cout << "push value: " << value << endl;
 		return value;
 	}
+	 //peek/top opertaion: retieve the value of the topmost element without removing it
+	void peek() {
+
+	}
 };
