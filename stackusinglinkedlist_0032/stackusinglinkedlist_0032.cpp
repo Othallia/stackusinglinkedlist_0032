@@ -32,6 +32,11 @@ public:
 		cout << "push value: " << value << endl;
 		return value;
 	}
+
+	//pop operation: remove the topmost element from the stack
+	void pop() {
+
+ }
 	 //peek/top opertaion: retieve the value of the topmost element without removing it
 	void peek() {
 		if (top == NULL) {
@@ -44,6 +49,6 @@ public:
 				current = current->next;
 			}
 			cout << endl;
-		}
+		}// return the value of the top node
 	}
 };
